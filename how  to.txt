@@ -1,0 +1,62 @@
+Student Attendance System - Installation and Usage Guide
+===================================================
+
+Date: May 20, 2025
+
+This file contains instructions on how to set up and use the Student Attendance System.
+
+REQUIREMENTS
+------------
+1. PHP >= 7.4
+2. MySQL or MariaDB
+3. Composer (optional, if using packages)
+4. A local server environment (e.g., XAMPP, WAMP, MAMP)
+5. Git (for cloning from GitHub)
+
+INSTRUCTIONS TO SET UP THE SYSTEM LOCALLY
+-----------------------------------------
+1. Clone the repository or download the zip file from GitHub:
+   - GitHub: https://github.com/akosi-angelo/attendancems
+   - Google Drive: https://drive.google.com/drive/folders/1lTwxHXIgfOk27mmfnCEfl8R9XH3TdJWX?usp=drive_link
+
+2. Extract the downloaded folder (if from Drive or zip).
+
+3. Place the project folder inside your server's root directory:
+   - For WAMP: C:/wamp64/www/
+   - For XAMPP: C:/xampp/htdocs/
+
+4. Open your MySQL client (phpMyAdmin or any GUI tool like DBeaver or MySQL Workbench).
+
+5. Run the SQL file to set up the database:
+   - File: `student_attendance_db.sql`
+   - This creates the necessary tables and inserts dummy data.
+
+6. Start your local server (Apache and MySQL).
+
+7. Access the system through your browser:
+   - Example: http://localhost/student_attendance_system
+
+LOGIN CREDENTIALS (Sample)
+---------------------------
+Teacher:
+- ID Number: T001
+- Password: teacherpass
+
+Student:
+- ID Number: S004
+- Password: mrbean
+
+- ID Number: S005
+- Password: client1
+-
+
+USAGE
+-----
+- Students can log in to view and monitor their attendance.
+- Teachers can log in to view attendance and mark records of all students.
+
+NOTES
+-----
+- Passwords are securely hashed using bcrypt.
+- The system does not include user registration or password reset.
+- Teachers are the only one who can add students.
