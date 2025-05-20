@@ -21,4 +21,4 @@ CREATE TABLE IF NOT EXISTS `attendance` (
 -- Dummy Teacher
 -- Password for T001: teacherpass
 INSERT INTO `users` (`id_number`, `password`, `name`, `role`) VALUES
-('T001', '$2y$10$fPlhDkYr0LQt0WWZlFoN5O/oEmXvV0xKpR0m1Zl8G1o6z8XJmNJwa', 'Prof. Albus Dumbledore', 'teacher');
+('T001', '$2y$10$ALk4DXDoHpRxwNBJXN9ZCOMN2ulJ.wujo2P0Tiz.ykPA20QRxQ9ca', 'Prof. Albus Dumbledore', 'teacher');
